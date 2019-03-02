@@ -16,7 +16,7 @@ function addToCart(item) {
   return `${item} has been added to your cart.`;
 }
 
-function viewCart() {
+function viewCart(item) {
  for (let i=cart.length; i<cart.length; i++);
   if (cart.length>0)
   {cart.push(`${[]} at $${Math.floor(Math.random()*100)}`);
