@@ -19,8 +19,8 @@ function addToCart(item) {
 function viewCart(item) {
  for (let i=cart.length; i<cart.length; i++);
   if (cart.length>0)
-  {cart.push(`${[]} at $${Math.floor(Math.random()*100)}`);
-  return "In your cart, you have"+ item + "."}
+  x = {cart.push(`${[]} at $${Math.floor(Math.random()*100)}`);
+  return "In your cart, you have "+ x + "."}
   else (cart.length===0);
   {return "Your shopping cart is empty."}
   
