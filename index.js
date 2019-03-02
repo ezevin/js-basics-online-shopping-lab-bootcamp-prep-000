@@ -20,7 +20,7 @@ function viewCart(item) {
  for (let i=cart.length; i<cart.length; i++);
   if (cart.length>0)
   {cart.push(`${[]} at $${Math.floor(Math.random()*100)}`);
-  return "In your cart, you have" +  cart + "."}
+  return "In your cart, you have"+ "."}
   else (cart.length===0);
   {return "Your shopping cart is empty."}
   
